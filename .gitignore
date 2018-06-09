@@ -1,0 +1,5 @@
+/.idea/
+/AppEntry/build/
+/HaxeCpp/Debug/
+/HaxeCpp/ipch/
+*.opensdf
