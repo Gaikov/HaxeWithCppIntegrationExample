@@ -26,8 +26,6 @@ class Main
 ```haxe
 package ;
 
-//https://gist.github.com/nadako/c8aec20c2a7751348f91
-
 import cpp.ConstCharStar;
 
 @:include("./../../HaxeCpp/HaxeCpp.h")
@@ -78,3 +76,6 @@ public:
 
 #endif
 ```
+
+### References:
+[SDL to Haxe](//https://gist.github.com/nadako/c8aec20c2a7751348f91)
