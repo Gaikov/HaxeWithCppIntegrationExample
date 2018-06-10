@@ -2,7 +2,26 @@
 
 This example demonstrates how to integrate c++ code into haxe and build native application
 
-## Haxe Code
+## Haxe application main class
+
+```haxe
+package ;
+import CppCall.CppClass;
+class Main
+{
+	public static function main():Void
+	{
+		trace("Hello world!");
+
+		CppCall.showMessage("Hello from CPP!");
+
+		var obj:CppClass = CppCall.createObject();
+		obj.showMessage("Hello from CPP object!");
+	}
+}
+```
+
+## Haxe integration code
 
 ```haxe
 package ;
@@ -30,7 +49,7 @@ extern class CppClass
 
 ```
 
-## CPP Code
+## CPP code
 
 ```cpp
 // HaxeCpp.h
