@@ -78,4 +78,4 @@ public:
 ```
 
 ### References:
-[SDL to Haxe](//https://gist.github.com/nadako/c8aec20c2a7751348f91)
+[SDL to Haxe](https://gist.github.com/nadako/c8aec20c2a7751348f91)
